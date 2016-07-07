@@ -1,8 +1,37 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_测试", "10_测试", "{AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_数据结构", "01_数据结构", "{23939D4B-3BA7-46E5-AA62-735508F74640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_算法", "02_算法", "{C5A6CBC7-CD27-4F9D-AB02-8762D7228B1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_设计模式", "03_设计模式", "{1E4DB2EB-52C9-4D70-8E64-B8A0FFC7DB12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_ORM", "04_ORM", "{BEBCDA26-3105-4C64-BC81-8E7E99167EC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00_公共库", "00_公共库", "{5B4D1BF2-70BB-4738-BBD1-3BE09D578BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonForUnitTest", "测试\CommonForUnitTest\CommonForUnitTest.csproj", "{9AF1A498-42C0-4B86-AEF5-14767925BD66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_语法", "05_语法", "{87E77F43-49C7-449E-9171-2B57A0E298D3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AF1A498-42C0-4B86-AEF5-14767925BD66} = {AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}
 	EndGlobalSection
 EndGlobal
