@@ -1,5 +1,0 @@
-E:\GithubCodes\MyLearn\UnitTestProject\bin\Debug\UnitTestProject.dll
-E:\GithubCodes\MyLearn\UnitTestProject\bin\Debug\UnitTestProject.pdb
-E:\GithubCodes\MyLearn\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
-E:\GithubCodes\MyLearn\UnitTestProject\obj\Debug\UnitTestProject.dll
-E:\GithubCodes\MyLearn\UnitTestProject\obj\Debug\UnitTestProject.pdb
