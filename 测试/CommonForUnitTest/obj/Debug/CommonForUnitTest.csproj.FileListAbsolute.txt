@@ -1,0 +1,7 @@
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\bin\Debug\CommonForUnitTest.dll
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\bin\Debug\CommonForUnitTest.pdb
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\bin\Debug\MyLearn.Lambda.dll
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\bin\Debug\MyLearn.Lambda.pdb
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.csprojResolveAssemblyReference.cache
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.dll
+E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.pdb

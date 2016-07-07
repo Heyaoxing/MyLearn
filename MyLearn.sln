@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonForUnitTest", "测试
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_语法", "05_语法", "{87E77F43-49C7-449E-9171-2B57A0E298D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLearn.Lambda", "语法\MyLearn.Lambda\MyLearn.Lambda.csproj", "{1A549D95-D98F-47C1-BBA4-E5207CFFA619}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,16 @@ Global
 		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AF1A498-42C0-4B86-AEF5-14767925BD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9AF1A498-42C0-4B86-AEF5-14767925BD66} = {AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619} = {87E77F43-49C7-449E-9171-2B57A0E298D3}
 	EndGlobalSection
 EndGlobal
