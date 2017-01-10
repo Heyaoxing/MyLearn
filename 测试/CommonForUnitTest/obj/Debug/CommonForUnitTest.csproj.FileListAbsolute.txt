@@ -5,3 +5,10 @@ E:\GithubCodes\MyLearn\测试\CommonForUnitTest\bin\Debug\MyLearn.Lambda.pdb
 E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.csprojResolveAssemblyReference.cache
 E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.dll
 E:\GithubCodes\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.pdb
+E:\GitHub\MyLearn\测试\CommonForUnitTest\bin\Debug\CommonForUnitTest.dll
+E:\GitHub\MyLearn\测试\CommonForUnitTest\bin\Debug\CommonForUnitTest.pdb
+E:\GitHub\MyLearn\测试\CommonForUnitTest\bin\Debug\MyLearn.Lambda.dll
+E:\GitHub\MyLearn\测试\CommonForUnitTest\bin\Debug\MyLearn.Lambda.pdb
+E:\GitHub\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.csprojResolveAssemblyReference.cache
+E:\GitHub\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.dll
+E:\GitHub\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.pdb
