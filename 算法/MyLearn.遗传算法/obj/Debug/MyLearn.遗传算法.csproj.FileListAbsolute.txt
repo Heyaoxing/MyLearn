@@ -1,0 +1,12 @@
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\MyLearn.遗传算法.exe.config
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\MyLearn.遗传算法.exe
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\MyLearn.遗传算法.pdb
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.dll
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.Genetic.dll
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.Math.dll
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.xml
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.Genetic.xml
+E:\Github\MyLearn\算法\MyLearn.遗传算法\bin\Debug\AForge.Math.xml
+E:\Github\MyLearn\算法\MyLearn.遗传算法\obj\Debug\MyLearn.遗传算法.csprojResolveAssemblyReference.cache
+E:\Github\MyLearn\算法\MyLearn.遗传算法\obj\Debug\MyLearn.遗传算法.exe
+E:\Github\MyLearn\算法\MyLearn.遗传算法\obj\Debug\MyLearn.遗传算法.pdb
