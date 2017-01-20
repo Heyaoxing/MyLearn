@@ -1,12 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-<<<<<<< HEAD
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
-=======
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
->>>>>>> b8313674bc16fd827769214f450ee8fcf24fb626
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10_测试", "10_测试", "{AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}"
 EndProject
@@ -26,11 +21,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_语法", "05_语法", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLearn.Lambda", "语法\MyLearn.Lambda\MyLearn.Lambda.csproj", "{1A549D95-D98F-47C1-BBA4-E5207CFFA619}"
 EndProject
-<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLearn.遗传算法", "算法\MyLearn.遗传算法\MyLearn.遗传算法.csproj", "{5D41699B-13C4-46EC-9B90-637F43343BBE}"
-=======
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Console.Test", "测试\Learn.Console.Test\Learn.Console.Test.csproj", "{0F57D5F9-35EA-4C58-88D1-C30026504DD6}"
->>>>>>> b8313674bc16fd827769214f450ee8fcf24fb626
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLearn.Threads", "MyLearn.Threads\MyLearn.Threads.csproj", "{1278FFC7-0A89-4E92-A0A1-84E268FBD114}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,17 +41,18 @@ Global
 		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A549D95-D98F-47C1-BBA4-E5207CFFA619}.Release|Any CPU.Build.0 = Release|Any CPU
-<<<<<<< HEAD
 		{5D41699B-13C4-46EC-9B90-637F43343BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5D41699B-13C4-46EC-9B90-637F43343BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D41699B-13C4-46EC-9B90-637F43343BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D41699B-13C4-46EC-9B90-637F43343BBE}.Release|Any CPU.Build.0 = Release|Any CPU
-=======
 		{0F57D5F9-35EA-4C58-88D1-C30026504DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0F57D5F9-35EA-4C58-88D1-C30026504DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F57D5F9-35EA-4C58-88D1-C30026504DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F57D5F9-35EA-4C58-88D1-C30026504DD6}.Release|Any CPU.Build.0 = Release|Any CPU
->>>>>>> b8313674bc16fd827769214f450ee8fcf24fb626
+		{1278FFC7-0A89-4E92-A0A1-84E268FBD114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1278FFC7-0A89-4E92-A0A1-84E268FBD114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1278FFC7-0A89-4E92-A0A1-84E268FBD114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1278FFC7-0A89-4E92-A0A1-84E268FBD114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,7 +60,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9AF1A498-42C0-4B86-AEF5-14767925BD66} = {AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}
 		{0F57D5F9-35EA-4C58-88D1-C30026504DD6} = {AABB9EBC-F06E-47C4-BD68-C2A24A0DFA86}
-		{1A549D95-D98F-47C1-BBA4-E5207CFFA619} = {87E77F43-49C7-449E-9171-2B57A0E298D3}
 		{5D41699B-13C4-46EC-9B90-637F43343BBE} = {C5A6CBC7-CD27-4F9D-AB02-8762D7228B1C}
+		{1A549D95-D98F-47C1-BBA4-E5207CFFA619} = {87E77F43-49C7-449E-9171-2B57A0E298D3}
+		{1278FFC7-0A89-4E92-A0A1-84E268FBD114} = {87E77F43-49C7-449E-9171-2B57A0E298D3}
 	EndGlobalSection
 EndGlobal
