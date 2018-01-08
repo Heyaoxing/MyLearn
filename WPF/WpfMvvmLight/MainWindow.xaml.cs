@@ -24,7 +24,13 @@ namespace WpfMvvmLight
         public MainWindow()
         {
             InitializeComponent();
+            this.Loaded += MainWindow_Loaded;
             this.Closed += MainWindow_Closed;
+        }
+
+        private void MainWindow_Loaded(object sender, RoutedEventArgs e)
+        {
+          //  WindowStyle = WindowStyle.None;
         }
 
         private void MainWindow_Closed(object sender, EventArgs e)

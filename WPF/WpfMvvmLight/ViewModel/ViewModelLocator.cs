@@ -43,24 +43,15 @@ namespace WpfMvvmLight.ViewModel
             ////}
 
             SimpleIoc.Default.Register<MainViewModel>();
-            SimpleIoc.Default.Register<WelcomeViewModel>();
         }
 
-        //public MainViewModel Main
-        //{
-        //    get
-        //    {
-        //        return ServiceLocator.Current.GetInstance<MainViewModel>();
-        //    }
-        //}
-
-        //public WelcomeViewModel Welcome
-        //{
-        //    get
-        //    {
-        //        return ServiceLocator.Current.GetInstance<WelcomeViewModel>();
-        //    }
-        //}
+        public MainViewModel Main
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<MainViewModel>();
+            }
+        }
 
         public static void Cleanup()
         {
