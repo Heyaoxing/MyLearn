@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.WPF", "06.WPF", "{12EB6A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfMvvmLight", "WPF\WpfMvvmLight\WpfMvvmLight.csproj", "{56B44C4D-06F3-43E6-921B-1639EDFC3536}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.网络", "07.网络", "{6B24108A-5BB1-4BEE-8AA7-F69514B41121}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
