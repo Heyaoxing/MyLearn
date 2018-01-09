@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfMvvmLight.View
 {
     /// <summary>
-    /// Take.xaml 的交互逻辑
+    /// HomeButton.xaml 的交互逻辑
     /// </summary>
-    public partial class Take : BasePane
+    public partial class HomeButton : UserControl
     {
-        public Take()
+        public HomeButton()
         {
             InitializeComponent();
         }

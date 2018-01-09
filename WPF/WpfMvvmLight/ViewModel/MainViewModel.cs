@@ -22,14 +22,26 @@ namespace WpfMvvmLight.ViewModel
         /// </summary>
         public MainViewModel()
         {
-            ////if (IsInDesignMode)
-            ////{
-            ////    // Code runs in Blend --> create design time data.
-            ////}
-            ////else
-            ////{
-            ////    // Code runs "for real"
-            ////}
+            _viewModel = new HomePageViewModel();
+        }
+
+
+        private ViewModelBase _viewModel;
+        /// <summary>
+        /// °ó¶¨µ½ ContentControl
+        /// </summary>
+        public ViewModelBase ViewModel
+        {
+            get { return _viewModel; }
+            set
+            {
+                if (_viewModel == value)
+                {
+                    return;
+                }
+                _viewModel = value;
+                RaisePropertyChanged();
+            }
         }
 
         public override void Cleanup()

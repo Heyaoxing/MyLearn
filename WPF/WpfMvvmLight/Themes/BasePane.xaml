@@ -5,34 +5,37 @@
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate  TargetType="{x:Type local:BasePane}">
-                    <Grid Background="White"  Width="1280" Height="1024">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="12*"/>
-                            <RowDefinition Height="205*"/>
-                            <RowDefinition Height="12*"/>
-                        </Grid.RowDefinitions>
-                        <Border BorderBrush="Black" HorizontalAlignment="Stretch"  Margin="0" Background="#FFF5A63B"/>
-                        <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Stretch" Grid.Row="2" Background="#FF3D434D" >
-                            <Grid Margin="10,10,0,0">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="115*"/>
-                                    <ColumnDefinition Width="180*"/>
-                                    <ColumnDefinition Width="584*"/>
-                                    <ColumnDefinition Width="224*"/>
-                                </Grid.ColumnDefinitions>
-                                <TextBlock Grid.Column="0" TextWrapping="Wrap"  Foreground="White">
+                    <Canvas Width="1280" Height="1024" Background="#EEEEEE">
+                        <Grid Background="White"  Width="1280" Height="1024">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="12*"/>
+                                <RowDefinition Height="205*"/>
+                                <RowDefinition Height="12*"/>
+                            </Grid.RowDefinitions>
+                            <Border BorderBrush="Black" HorizontalAlignment="Stretch"   Grid.Row="0" Margin="0" Background="#FFF5A63B"/>
+                            <Grid Grid.Row="1" Margin="100">
+                                <ContentPresenter/>
+                            </Grid>
+                            <Border BorderBrush="Black" BorderThickness="0" HorizontalAlignment="Stretch" Grid.Row="2" Background="#FF3D434D" >
+                                <Grid Margin="10,10,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="115*"/>
+                                        <ColumnDefinition Width="180*"/>
+                                        <ColumnDefinition Width="584*"/>
+                                        <ColumnDefinition Width="224*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" TextWrapping="Wrap"  Foreground="White">
                 <Run Text="版本号:" FontSize="22"></Run>
-                                </TextBlock>
+                                    </TextBlock>
 
-                                <TextBlock Grid.Column="4" TextWrapping="Wrap"  Foreground="White">
+                                    <TextBlock Grid.Column="4" TextWrapping="Wrap"  Foreground="White">
                 <Run Text="服务热线:" FontSize="22"></Run>
                 <Run Text="400830600" FontSize="22"></Run>
-                                </TextBlock>
-                            </Grid>
-                        </Border>
-
-
-                    </Grid>
+                                    </TextBlock>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Canvas>
                 </ControlTemplate>
             </Setter.Value>
         </Setter>

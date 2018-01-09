@@ -16,13 +16,18 @@ using System.Windows.Shapes;
 namespace WpfMvvmLight.View
 {
     /// <summary>
-    /// HomePage.xaml 的交互逻辑
+    /// TakePage.xaml 的交互逻辑
     /// </summary>
-    public partial class HomePage : BasePane
+    public partial class TakePage : BasePane
     {
-        public HomePage()
+        public TakePage()
         {
             InitializeComponent();
+        }
+
+        protected override void OnInitialized(EventArgs e)
+        {
+            base.OnInitialized(e);
         }
     }
 }
