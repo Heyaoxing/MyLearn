@@ -15,3 +15,4 @@ E:\GitHub\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.pdb
 E:\Github\MyLearn\测试\CommonForUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 E:\Github\MyLearn\测试\CommonForUnitTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 E:\Github\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.csproj.CoreCompileInputs.cache
+E:\GitHub\MyLearn\测试\CommonForUnitTest\obj\Debug\CommonForUnitTest.csproj.CopyComplete

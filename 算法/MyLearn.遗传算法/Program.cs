@@ -13,8 +13,8 @@ namespace MyLearn.遗传算法
         {
             Console.WriteLine("Start!");
             SimpleExample f = new SimpleExample();
-         //   f.Mode =OptimizationFunction1D.Modes.Minimization;//寻求方程最小值
-            f.Mode =OptimizationFunction1D.Modes.Maximization;//寻求方程最小值
+            //   f.Mode =OptimizationFunction1D.Modes.Minimization;//寻求方程最小值
+            f.Mode = OptimizationFunction1D.Modes.Maximization;//寻求方程最小值
             Population population = new Population(40, new BinaryChromosome(32), f, new RouletteWheelSelection());
             population.RunEpoch();
             double goodX = f.Translate(population.BestChromosome);
