@@ -1,0 +1,9 @@
+E:\GitHub\MyLearn\公共库\Common\bin\Debug\netcoreapp2.0\Common.deps.json
+E:\GitHub\MyLearn\公共库\Common\bin\Debug\netcoreapp2.0\Common.dll
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.csprojResolveAssemblyReference.cache
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
+E:\GitHub\MyLearn\公共库\Common\bin\Debug\netcoreapp2.0\Common.pdb
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.dll
+E:\GitHub\MyLearn\公共库\Common\obj\Debug\netcoreapp2.0\Common.pdb
