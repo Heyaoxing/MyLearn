@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Autofac;
+using EventBus.EventStore;
 using EventBus.Handlers;
 
 namespace EventBus
@@ -13,9 +15,12 @@ namespace EventBus
         private static readonly EventBus singleton = new EventBus();
 
         private ContainerBuilder builder;
+        private IContainer container;
+        private IEventStore eventStore;
         private EventBus()
         {
             builder = new ContainerBuilder();
+            eventStore = new InRedisEventStore();
         }
 
         public static EventBus Singleton
@@ -47,12 +52,32 @@ namespace EventBus
 
         public void RegisterAllEventHandlerFromAssembly(Assembly assembly)
         {
-            throw new NotImplementedException();
+            if (assembly == null) return;
+            foreach (Type type in assembly.GetTypes())
+            {
+                var handle = type.GetInterface("IEventHandler`1");
+                if (handle == null) continue;
+                var genericArguments = handle.GetGenericArguments();
+                if (genericArguments == null || genericArguments.Length == 0) continue;
+                var eventData = genericArguments[0];
+                string resolveName = eventData.Name + "_" + type.Name;
+                builder.RegisterType(type).Named<IEventHandler>(resolveName).InstancePerLifetimeScope();
+                eventStore.AddRegister(eventData.Name, resolveName);
+            }
+            container = builder.Build();
         }
 
         public void Trigger<TEventData>(TEventData eventData) where TEventData : IEventData
         {
-            throw new NotImplementedException();
+            var _eventHandleMapping = eventStore.GetHandlersForEvent(eventData.GetType().Name);
+            if (_eventHandleMapping == null) return;
+
+            foreach (var handle in _eventHandleMapping)
+            {
+                var eventHandler = container.ResolveNamed<IEventHandler>(handle);
+                var handler = eventHandler as IEventHandler<TEventData>;
+                handler?.Handler(eventData);
+            }
         }
 
         public void Trigger<TEventData>(Type eventHandlerType, TEventData eventData) where TEventData : IEventData

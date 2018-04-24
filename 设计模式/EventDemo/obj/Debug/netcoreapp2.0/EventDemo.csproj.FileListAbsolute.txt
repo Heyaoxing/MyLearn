@@ -12,3 +12,5 @@ E:\GitHub\MyLearn\设计模式\EventDemo\obj\Debug\netcoreapp2.0\EventDemo.pdb
 E:\GitHub\MyLearn\设计模式\EventDemo\bin\Debug\netcoreapp2.0\EventBus.dll
 E:\GitHub\MyLearn\设计模式\EventDemo\bin\Debug\netcoreapp2.0\EventBus.pdb
 E:\GitHub\MyLearn\设计模式\EventDemo\obj\Debug\netcoreapp2.0\EventDemo.csproj.CopyComplete
+E:\Github\MyLearn\设计模式\EventDemo\bin\Debug\netcoreapp2.0\Common.dll
+E:\Github\MyLearn\设计模式\EventDemo\bin\Debug\netcoreapp2.0\Common.pdb

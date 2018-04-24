@@ -1,5 +1,9 @@
-﻿using EventBus;
+﻿using Common;
+using EventBus;
+using Microsoft.Extensions.Configuration;
 using System;
+using System.IO;
+using System.Reflection;
 
 namespace EventDemo
 {
@@ -7,16 +11,18 @@ namespace EventDemo
     {
         static void Main(string[] args)
         {
-            FishingEventData fishingEventData = new FishingEventData();
-            fishingEventData.FishingMan = new FishingMan("张杰");
+            EventBus.EventBus.Singleton.RegisterAllEventHandlerFromAssembly(Assembly.GetExecutingAssembly());
+            FishingEventData eventData = new FishingEventData();
+            eventData.FishingMan = new FishingMan("小明");
             while (true)
             {
-                if (new Random().Next() % 2 == 0)
+                eventData.FishType = (FishType)new Random().Next(0, 5);
+                if (new Random().Next(0, 10) % 2 == 0)
                 {
-                    EventBusWithReflection.singleton.Trigger(fishingEventData);
+                    EventBus.EventBus.Singleton.Trigger<FishingEventData>(eventData);
                 }
-                fishingEventData.FishType = (FishType)new Random().Next(0, 5);
-                if (fishingEventData.FishingMan.Count >= 5) break;
+
+                if (eventData.FishingMan.Count > 5) break;
             }
 
             Console.WriteLine("结束");

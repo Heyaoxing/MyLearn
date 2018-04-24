@@ -1,0 +1,10 @@
+E:\GitHub\MyLearn\测试\Learn.Console.Test\bin\Debug\Learn.Console.Test.exe.config
+E:\GitHub\MyLearn\测试\Learn.Console.Test\bin\Debug\Learn.Console.Test.exe
+E:\GitHub\MyLearn\测试\Learn.Console.Test\bin\Debug\Learn.Console.Test.pdb
+E:\GitHub\MyLearn\测试\Learn.Console.Test\bin\Debug\MyLearn.Lambda.dll
+E:\GitHub\MyLearn\测试\Learn.Console.Test\bin\Debug\MyLearn.Lambda.pdb
+E:\GitHub\MyLearn\测试\Learn.Console.Test\obj\Debug\Learn.Console.Test.csprojResolveAssemblyReference.cache
+E:\GitHub\MyLearn\测试\Learn.Console.Test\obj\Debug\Learn.Console.Test.csproj.CoreCompileInputs.cache
+E:\GitHub\MyLearn\测试\Learn.Console.Test\obj\Debug\Learn.Console.Test.exe
+E:\GitHub\MyLearn\测试\Learn.Console.Test\obj\Debug\Learn.Console.Test.pdb
+E:\GitHub\MyLearn\测试\Learn.Console.Test\obj\Debug\Learn.Console.Test.csproj.CopyComplete

@@ -1,0 +1,9 @@
+E:\GitHub\MyLearn\设计模式\StateMachines\bin\Debug\netcoreapp2.0\StateMachines.deps.json
+E:\GitHub\MyLearn\设计模式\StateMachines\bin\Debug\netcoreapp2.0\StateMachines.dll
+E:\GitHub\MyLearn\设计模式\StateMachines\bin\Debug\netcoreapp2.0\StateMachines.pdb
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.csproj.CoreCompileInputs.cache
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.AssemblyInfoInputs.cache
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.AssemblyInfo.cs
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.dll
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.pdb
+E:\GitHub\MyLearn\设计模式\StateMachines\obj\Debug\netcoreapp2.0\StateMachines.csprojResolveAssemblyReference.cache

@@ -11,8 +11,10 @@ namespace EventBus
     {
         private static readonly EventBusWithReflection Singleton = new EventBusWithReflection();
         private readonly ConcurrentDictionary<Type, List<Type>> _eventHandleMapping;
+
         private EventBusWithReflection()
         {
+
             _eventHandleMapping = new ConcurrentDictionary<Type, List<Type>>();
             MapEventToHandler();
         }

@@ -6,7 +6,6 @@ namespace EventBus.Handlers
 {
     public interface IEventHandler
     {
-
     }
 
     public interface IEventHandler<TEventData>: IEventHandler where TEventData:IEventData

@@ -7,3 +7,6 @@ E:\GitHub\MyLearn\设计模式\EventBus\obj\Debug\netcoreapp2.0\EventBus.Assembl
 E:\GitHub\MyLearn\设计模式\EventBus\obj\Debug\netcoreapp2.0\EventBus.dll
 E:\GitHub\MyLearn\设计模式\EventBus\obj\Debug\netcoreapp2.0\EventBus.pdb
 E:\GitHub\MyLearn\设计模式\EventBus\obj\Debug\netcoreapp2.0\EventBus.csprojResolveAssemblyReference.cache
+E:\Github\MyLearn\设计模式\EventBus\bin\Debug\netcoreapp2.0\Common.dll
+E:\Github\MyLearn\设计模式\EventBus\bin\Debug\netcoreapp2.0\Common.pdb
+E:\Github\MyLearn\设计模式\EventBus\obj\Debug\netcoreapp2.0\EventBus.csproj.CopyComplete
